@@ -6,13 +6,10 @@ void PowX3(double A, out double B)
 {            
     B = Math.Pow(A,3);            
 }
-//double A = 10; 
-double C= 0;
 Console.WriteLine("введите число");
 double i = double.Parse(Console.ReadLine()!);
-int A = 0;
-for (A=0;i>A;A++)
+for (double A=1;i>=A;A++)
 {
-PowX3(A, out C);
+PowX3(A, out double C);
  Console.WriteLine(C);
 }
