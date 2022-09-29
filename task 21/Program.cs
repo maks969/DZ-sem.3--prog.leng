@@ -18,8 +18,8 @@ double y1=double.Parse(Console.ReadLine());
 Console.WriteLine("введите Z1");
 double z1=double.Parse(Console.ReadLine());
 
-double h = Math.Sqrt(Math.Pow(x1-x,2)+Math.Pow(y1-y,2)+Math.Pow(z1-z,2));
+double length = Math.Sqrt(Math.Pow(x1-x,2)+Math.Pow(y1-y,2)+Math.Pow(z1-z,2));
 
 
-Console.WriteLine($"расстоянте = {h}");
+Console.WriteLine($"расстояние = {length}");
 
